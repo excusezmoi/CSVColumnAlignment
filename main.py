@@ -10,4 +10,4 @@ def oddToNormalCsv(inputFileName, outputFileName, fileFormat = 6):
     excel.Quit()
 
 if __name__ == '__main__':
-    oddToNormalCsv(input("Odd CSV file Path (use '\\' as deliminator):\n"),input("Normal CSV file Path (use '\\' as deliminator):\n"))
+    oddToNormalCsv(input("Input absolute file path.\nRemember to add '.csv' and use '\\' as deliminator.\n:"),input("Output absolute file path.\nUse '\\' as deliminator\n:"))
